@@ -12,7 +12,7 @@ import java.net.URI;
 public class WeatherController {
     // 상수
     private final String REQUEST_URL = "http://apis.data.go.kr/1360000/VilageFcstInfoService_2.0/getUltraSrtNcst";
-    private final String API_KEY = "hCu3Tuij0ZVPUDw02Jnup%2BJXTouObKmWV6yiaXZu5%2BWy5LQP7QBquYx7onvK62euhLK5oA0qdMW6KilTzbIWyw%3D%3D";
+    private final String API_KEY = "기상청 단기예보 APPKEY";
 
     // 화면 이동
     @GetMapping("/weather")
